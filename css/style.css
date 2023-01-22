@@ -57,8 +57,8 @@ img {
 
 .container {
   width: 1158px;
-  padding-left: 12px;
-  padding-right: 12px;
+  padding-left: 15px;
+  padding-right: 15px;
   margin-left: auto;
   margin-right: auto;
 
@@ -161,10 +161,6 @@ img {
 
 /* Hero section */
 
-.hero {
-  padding-top: 188px;
-  padding-bottom: 188px;
-}
 
 .hero-title {
   width: 494px;
@@ -182,6 +178,8 @@ img {
 .hero,
 .footer {
   background-color: var(--color-dark-bgr);
+  padding-top: 188px;
+  padding-bottom: 188px;
 }
 
 .btn {
@@ -215,6 +213,10 @@ img {
 .benefits-list {
   display: flex;
   gap: 24px;
+}
+
+.benefits-item {
+  flex-basis: calc((100%-3*24)/4);
 }
 
 /* Work section */
@@ -265,6 +267,10 @@ img {
   padding-bottom: 100px;
 }
 
+.footer .logo {
+  margin-right: 0;
+}
+
 .text-footer {
   width: 264px;
   margin-top: 16px;
@@ -283,7 +289,7 @@ img {
 
 /* Button */
 .portfolio {
-  margin-top: 96px;
+  padding-top: 96px;
 }
 
 .btn-list {
@@ -326,7 +332,6 @@ img {
   display: flex;
   flex-wrap: wrap;
   gap: 48px 24px;
-  padding-bottom: 120px;
 }
 
 .portfolio-wrapper {
